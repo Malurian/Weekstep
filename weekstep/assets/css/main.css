@@ -1,0 +1,110 @@
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+.logoStyling {
+  color: black;
+  font-weight: bold;
+  margin-left: 50px;
+  font-size: 140%;
+}
+
+.column-Settings {
+
+
+  border: 1px solid grey;
+  width: 30px;
+  height: 250px;
+  text-align: center;
+
+  margin: 10px;
+
+}
+
+.space-top {
+
+  margin-top: 50px;
+
+}
+
+
+
+
+.centerContainer {
+
+  margin: 0 auto;
+  border: 1px solid grey;
+  width: 600px;
+  height: 300px;
+  margin-top: 50px;
+}
+
+.footer_section {
+
+  width: 100%
+  color: black;
+}
+
+.footerContainer {
+
+  margin: 0 auto;
+}
+
+.centerContainer input {
+  margin: 10px;
+  width: 580px;
+  height: 280px;
+  border: none;
+}
+
+@media (min-width: 576px) {
+
+  .listAlign {
+    margin-left: -180px;
+  }
+
+  .borderMargins {
+    border: 2px solid black;
+    padding: 2px;
+
+  }
+
+  .borderOthers {
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 2px;
+  }
+   }
+
+.areaEdit {
+    width: 350px;
+}
+
+.buttonClass {
+  color: blue;
+  width: 50px;
+}
+
+.headerTabs {
+
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.topSpace {
+  margin-top: 50px;
+}
